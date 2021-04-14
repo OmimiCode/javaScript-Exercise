@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+font-family: 'B612 Mono', monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+font-family: 'Cabin', sans-serif;
+
+Website link : https://preview.colorlib.com/theme/meranda/index.html

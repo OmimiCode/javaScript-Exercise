@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+body{
+  margin: 0 5%;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+
+h1{
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+
+header{
+  padding-bottom: 30px;
+  position: fixed;
+  border-bottom:  1px solid #ccc;;;
+  background-color: white;
+  margin: auto;
+}
+
+.gridTopNavBar{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+
+}
+.navRight{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+
+
+}
+
+input{
+  padding:1rem;
+  border-radius: 45px;
+  border-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid gray;
+
+}
+
+button{
+  padding:1rem;
+  border-radius: 45px;
+  color: white;
+  background: black;
+}
+
+.navbar {
+  display: flex;
+  padding: 2pt;
+}
+
+.navbar a{
+  font-family: 'B612 Mono', monospace;
+  display: flex;
+  padding-right: 6rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+
+.mainContainer{
+  display: flex;
+  background-color: rgb(248,249,250);
+  padding: 10% 0;
+  margin: auto;
+
+}
+
+div img{
+  width: 30rem;
+}
+
+
+.captionRight{
+  padding: 3%;
+  line-height: normal;
+}
+.caption{
+  color: #555555;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+div h1{
+  font-size: 70px;
+}
+
+p{
+  color: #555555;
+  font-size: 20px;
+}
+
+pin{
+  color: #555555;
+  font-size: 20px;
+}
+
+.nameFormat{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
