@@ -19,8 +19,8 @@ header{
   position: fixed;
   align-items: center;
   align-content: end;
-
-
+  width: 100%;
+  background-color: black;
 }
 
 
@@ -106,15 +106,12 @@ em{
   position: absolute;
   right: 20%;
   bottom: 20%;
-
-
+  cursor: pointer;
 }
 
 .lets-talk i{
   color: black;
   font-size: 1rem;
-
-
 }
 
 
