@@ -11,11 +11,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
+/*html {*/
+/*  color: #222;*/
+/*  font-size: 1em;*/
+
+/*}*/
 
 /*
  * Remove text-shadow in selection highlight:
@@ -260,8 +260,8 @@ textarea {
     page-break-after: avoid;
   }
 
-
 }
+
 
 
 
