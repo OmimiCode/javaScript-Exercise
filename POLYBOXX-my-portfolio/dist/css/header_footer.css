@@ -3,30 +3,31 @@ body {
   background: black;
   font-family: IBM Plex Mono, sans-serif;
   color: white;
-
-
-
+  margin: 2% 10%;
 }
 header{
   height: 100vh;
-  margin: 2% 10%;
-
 }
 
+nav{
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+}
  /*header navigation*/
 .nav_bar{
-  display:flex;
-  flex-wrap: wrap;
+  display: flex;
   position: fixed;
   align-items: center;
-  align-content: end;
-  width: 100%;
+  align-content: center;
+  justify-content: space-between;
+  width: 80%;
   background-color: black;
+
 }
 
 .navigation{
   display: flex;
-  padding-left: 35em;
 }
 
 .navigation a {
@@ -61,63 +62,67 @@ header{
   margin: 2% 0;
 }
 
+.text-one{
+  font-size: 25px;
+}
+.text-two{
+  font-size: 40px;
+}
+.text-three{ font-size: 23px;
+margin: 5px 0}
+.text-four{font-size: 18px}
+
+.hire-me{
+  margin: 5px 0;
+  outline: none;
+  color: black;
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  align-content: center;
+  text-decoration: none;
+  font-size: 2rem;
+  border-radius: 10px;
+
+}
 
 
 
 
 .green-bar{
-  background-color: rgba(0, 100, 0, 0.58);
-  width: 500px;
-  height: 30px;
+  background-color: rgba(0, 100, 0, 0.38);
+  width: 730px;
+  height: 10px;
   padding-top: 1px;
 }
 
 
 
 
-.typeWriter h1 {
-  line-height: 6rem;
-  font-size: 5em;
-  color: white;
-  text-transform: uppercase;
+.about-me {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 75px;
 }
 
-span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
-
-
-/*.about-me h1 {*/
-/*  overflow: hidden; !* Ensures the content is not revealed until the animation *!*/
-/*  border-right: .15em solid orange; !* The typwriter cursor *!*/
-/*  white-space: nowrap; !* Keeps the content on a single line *!*/
-/*  margin: 0 auto; !* Gives that scrolling effect as the typing happens *!*/
-/*  letter-spacing: .15em; !* Adjust as needed *!*/
-/*  animation:*/
-/*    typing 5s steps(40, end),*/
-/*    blink-caret .75s step-end infinite;*/
-/*  font-weight: 700;*/
-/*  cursor: pointer;*/
-/*}*/
-
-/*!* The typing effect *!*/
-/*@keyframes typing {*/
-/*  from { width: 0 }*/
-/*  to { width: 100% }*/
-/*}*/
-
-/*!* The typewriter cursor effect *!*/
-/*@keyframes blink-caret {*/
-/*  from, to { border-color: transparent }*/
-/*  50% { border-color: white; }*/
-/*}*/
 
 
 
@@ -126,13 +131,13 @@ span {
   color: orange;
 
 }
-em{
-  font-style: italic;
-  font-family:DejaVu Sans,Serif, monospace;
-  font-weight:10;
-  color: greenyellow;
 
 
+
+.short-intro{
+  font-size: 2rem;
+  margin:0;
+  line-height: 2px;
 }
 
 
@@ -140,11 +145,11 @@ em{
   color: rgba(85, 85, 85, 0.73);
   font-style: italic;
   line-height: 10px;
+  font-size: 16px;
 }
 
 .profile-pic{
-  width:25%;
-  padding-left:3%;
+  width:30%;
   padding-right: 5%;
 
 }
@@ -195,18 +200,25 @@ em{
 
 .social a{
   color: white;
+  width: 25%;
   margin-top: 2rem;
 }
 
 .social a i{
   font-size: 3rem;
-
+  transition: all 1s ease-in-out;
 }
+
+.social a i:hover{
+  font-size: 4.5rem;
+}
+
 .social a :hover{
-  font-size: 6rem;
+  font-size: 4.5rem;
   color: greenyellow;
-
+  transition: color 1s ease-in-out;
 }
+
 
 .scroll-down {
   display: flex;
