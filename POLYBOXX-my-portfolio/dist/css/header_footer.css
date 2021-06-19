@@ -67,6 +67,8 @@ nav{
 }
 .text-two{
   font-size: 40px;
+  text-space: 0.5rem;
+  letter-spacing: 0.15em;
 }
 .text-three{ font-size: 23px;
 margin: 5px 0}
@@ -102,10 +104,10 @@ margin: 5px 0}
 
 .about-me {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .1em solid orange; /* The typwriter cursor */
+  border-right: .1em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .1em; /* Adjust as needed */
   animation: typing 5s steps(40, end), blink-caret .75s step-end infinite;
   cursor: pointer;
   font-weight: 600;

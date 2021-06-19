@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f58328b2-3ba7-48df-b3d1-373ce1b16571" name="Default Changelist" comment="my portfolio">
       <change beforePath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/css/header_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/css/header_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/dist/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../POLYBOXX-my-portfolio/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -50,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/polyboxx" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,7 +85,14 @@
       <workItem from="1618785611400" duration="157000" />
       <workItem from="1618794028939" duration="8671000" />
       <workItem from="1618826312161" duration="598000" />
-      <workItem from="1618836159600" duration="625000" />
+      <workItem from="1618836159600" duration="2897000" />
+      <workItem from="1618845778533" duration="27000" />
+      <workItem from="1618908037959" duration="242000" />
+      <workItem from="1618926620993" duration="427000" />
+      <workItem from="1618994725761" duration="605000" />
+      <workItem from="1619015311796" duration="255000" />
+      <workItem from="1619161014400" duration="1054000" />
+      <workItem from="1620640554583" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="my portfolio">
       <created>1618427439338</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618793672256</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="my portfolio">
+      <created>1618836950664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1618836950664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
